@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dungeons & Dragons</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css">
+
+	<script src="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
+</head>
+<body>
+	<div class="row collapse">
+		<div class="large-6 columns medium-12 columns">
+		  <div class="large-2 columns medium-2 columns">
+		    <ul class="tabs vertical" id="example-vert-tabs" data-tabs>
+		      <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true"><p style="margin: -15px; font-size: 16px;">You</p></a></li>
+		      <li class="tabs-title"><a href="#panel2v">Tab 2</a></li>
+		      <li class="tabs-title"><a href="#panel3v">Tab 3</a></li>
+		    </ul>
+		   </div>
+		   <div class="large-10 columns medium-10 columns">
+		    <div class="tabs-content vertical" data-tabs-content="example-vert-tabs">
+		      <div class="tabs-panel is-active" id="panel1v">
+		        <ul class="tabs" data-tabs id="example-tabs">
+				  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+				  <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+				</ul>
+				<div class="tabs-content" data-tabs-content="example-tabs">
+				  <div class="tabs-panel is-active" id="panel1">
+				    <p>1 1</p>
+				  </div>
+				  <div class="tabs-panel" id="panel2">
+				    <p>1 2</p>
+				  </div>
+				</div>
+		      </div>
+		      <div class="tabs-panel" id="panel2v">
+		        <ul class="tabs" data-tabs id="example-tabs">
+				  <li class="tabs-title is-active"><a href="#panel3" aria-selected="true">Tab 1</a></li>
+				  <li class="tabs-title"><a href="#panel4">Tab 2</a></li>
+				</ul>
+				<div class="tabs-content" data-tabs-content="example-tabs">
+				  <div class="tabs-panel is-active" id="panel3">
+				    <p>2 1</p>
+				  </div>
+				  <div class="tabs-panel" id="panel4">
+				    <p>2 2</p>
+				  </div>
+				</div>
+		      </div>
+		      <div class="tabs-panel" id="panel3v">
+		        <ul class="tabs" data-tabs id="example-tabs">
+				  <li class="tabs-title is-active"><a href="#panel5" aria-selected="true">Tab 1</a></li>
+				  <li class="tabs-title"><a href="#panel6">Tab 2</a></li>
+				</ul>
+				<div class="tabs-content" data-tabs-content="example-tabs">
+				  <div class="tabs-panel is-active" id="panel5">
+				    <p>3 1</p>
+				  </div>
+				  <div class="tabs-panel" id="panel6">
+				    <p>3 2</p>
+				  </div>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<script>
+		$(document).foundation();
+	</script>
+</body>
+</html>
